@@ -1,5 +1,5 @@
 {
-  "name": "@jozi/lib",
+  "name": "@jozefini/lib",
   "license": "MIT",
   "version": "0.0.1",
   "description": "JS Library",
@@ -12,7 +12,7 @@
   ],
   "author": "Jozefini",
   "repository": {
-    "url": "https://github.com/jozefini/jozi.git"
+    "url": "git+https://github.com/jozefini/jozi.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -25,5 +25,12 @@
     "@changesets/cli": "^2.27.1",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/jozefini/jozi/issues"
+  },
+  "homepage": "https://github.com/jozefini/jozi#readme",
+  "dependencies": {
+    "prettier": "^2.8.8"
   }
 }

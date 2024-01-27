@@ -9,3 +9,5 @@ tsconfig.json
 tsup.config.ts
 .gitignore
 /.github
+/.changeset
+/.vscode
