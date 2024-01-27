@@ -9,9 +9,9 @@ export default defineConfig({
   ],
   entry: {
     index: "src/index.ts",
-    object: "src/object.ts",
-    events: "src/events.ts",
-    formatting: "src/formatting.ts",
+    "object/index": "src/object.ts",
+    "events/index": "src/events.ts",
+    "formatting/index": "src/formatting.ts",
   },
   format: ["cjs", "esm"],
   dts: true,
