@@ -1,5 +1,5 @@
 {
-  "name": "@jozi",
+  "name": "@jozi/lib",
   "license": "MIT",
   "version": "0.0.1",
   "description": "JS Library",
@@ -10,7 +10,7 @@
   "author": "Jozefini",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jozefini/jozi"
+    "url": "git+https://github.com/jozefini/jozi.git"
   },
   "homepage": "https://github.com/jozefini/jozi",
   "main": "dist/index.js",
