@@ -1,8 +1,18 @@
 {
-  "name": "@jozi",
+  "name": "jozi",
   "license": "MIT",
   "version": "0.0.1",
   "description": "JS Library",
+  "keywords": [
+    "js",
+    "library"
+  ],
+  "author": "Jozefini",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jozefini/jozi"
+  },
+  "homepage": "https://github.com/jozefini/jozi",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
