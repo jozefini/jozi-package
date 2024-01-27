@@ -12,10 +12,8 @@
   ],
   "author": "Jozefini",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jozefini/jozi.git"
+    "url": "https://github.com/jozefini/jozi.git"
   },
-  "homepage": "https://github.com/jozefini/jozi",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
