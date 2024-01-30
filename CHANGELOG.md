@@ -1,5 +1,11 @@
 # @jozefini/lib
 
+## 0.0.12
+
+### Patch Changes
+
+- 7e06612: fix types
+
 ## 0.0.11
 
 ### Patch Changes
