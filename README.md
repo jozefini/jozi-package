@@ -2,7 +2,7 @@
 
 This library provides several helper functions for `JavaScript`/`TypeScript`.
 
-### Event Helpers
+### Event
 
 Set of helper functions to manage event listeners
 
@@ -30,7 +30,7 @@ undelegate(parent, 'click', '.cta-button', handler)
 once(el, 'click', handler)
 ```
 
-### Object Helpers
+### Object
 
 Set of helper functions for safely getting and setting values in an object
 
@@ -47,7 +47,7 @@ const v1 = safeGet(obj, 'a.b.c', 0) // TypeSafe for path and v1 = 1 | 0
 const v2 = safeSet(obj, 'a.b.c', 2) // true | false
 ```
 
-### String Helpers
+### String
 
 Helper function to manage string replacements
 
@@ -61,7 +61,7 @@ const str = 'Hello {{name}}!'
 const v1 = strReplacer(str, { name: 'World' }) // TypeSafe for all {{keys}} and output = 'Hello World!'
 ```
 
-### HTML Helpers
+### HTML
 
 Helper function to sanitize HTML strings
 
@@ -85,7 +85,7 @@ const allowedTags = {
 const v1 = kses(htmlStr, allowedTags) // '<p class"flex">Hello <strong>World</strong>!</p>'
 ```
 
-### Tailwind Helpers
+### Tailwind CSS
 
 Set of helper functions to manage CSS classes, particularly useful when working with Tailwind CSS
 
@@ -109,7 +109,7 @@ const combinedClasses = cn(
 ) // 'text-sm text-green-500'
 ```
 
-### Misc Helpers
+### Misc
 
 Set of helper functions to check various properties of arrays and objects
 
