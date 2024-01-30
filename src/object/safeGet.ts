@@ -1,6 +1,6 @@
 import { Path, PathValue } from '../types'
 
-export function get<
+export function safeGet<
   T,
   P extends Path<T>,
   D = undefined,
