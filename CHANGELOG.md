@@ -1,5 +1,11 @@
 # @jozefini/lib
 
+## 0.2.0
+
+### Minor Changes
+
+- 124d36f: add safeGet and safeSet
+
 ## 0.1.0
 
 ### Minor Changes
