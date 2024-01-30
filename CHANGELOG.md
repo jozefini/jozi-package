@@ -1,5 +1,11 @@
 # @jozefini/lib
 
+## 0.2.1
+
+### Patch Changes
+
+- 3b62509: add readme
+
 ## 0.2.0
 
 ### Minor Changes
