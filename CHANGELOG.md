@@ -1,5 +1,11 @@
 # @jozefini/lib
 
+## 0.1.0
+
+### Minor Changes
+
+- 5ad3879: change build dir
+
 ## 0.0.12
 
 ### Patch Changes
