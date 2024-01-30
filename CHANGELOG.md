@@ -1,5 +1,11 @@
 # @jozefini/lib
 
+## 0.2.2
+
+### Patch Changes
+
+- 28a08d1: update readme
+
 ## 0.2.1
 
 ### Patch Changes
