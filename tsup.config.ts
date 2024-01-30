@@ -20,7 +20,7 @@ export default defineConfig({
 
   format: ['cjs', 'esm'],
   dts: true,
-  outDir: '',
+  outDir: '.',
   clean: true,
   minify: true,
   shims: true,
