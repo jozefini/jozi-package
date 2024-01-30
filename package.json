@@ -14,91 +14,94 @@
   "repository": {
     "url": "git+https://github.com/jozefini/jozi.git"
   },
-  "main": "./index.js",
-  "types": "./index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "**"
+  ],
   "exports": {
     ".": {
       "import": {
-        "types": "./index.d.mts",
-        "default": "./index.mjs"
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
       },
       "module": {
-        "types": "./index.d.ts",
-        "default": "./index.js"
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
       },
       "default": {
-        "types": "./index.d.ts",
-        "default": "./index.js"
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
       }
     },
     "./events": {
       "import": {
-        "types": "./events.d.mts",
-        "default": "./events.mjs"
+        "types": "./dist/events.d.mts",
+        "default": "./dist/events.mjs"
       },
       "module": {
-        "types": "./events.d.ts",
-        "default": "./events.js"
+        "types": "./dist/events.d.ts",
+        "default": "./dist/events.js"
       },
       "default": {
-        "types": "./events.d.ts",
-        "default": "./events.js"
+        "types": "./dist/events.d.ts",
+        "default": "./dist/events.js"
       }
     },
     "./html": {
       "import": {
-        "types": "./html.d.mts",
-        "default": "./html.mjs"
+        "types": "./dist/html.d.mts",
+        "default": "./dist/html.mjs"
       },
       "module": {
-        "types": "./html.d.ts",
-        "default": "./html.js"
+        "types": "./dist/html.d.ts",
+        "default": "./dist/html.js"
       },
       "default": {
-        "types": "./html.d.ts",
-        "default": "./html.js"
+        "types": "./dist/html.d.ts",
+        "default": "./dist/html.js"
       }
     },
     "./object": {
       "import": {
-        "types": "./object.d.mts",
-        "default": "./object.mjs"
+        "types": "./dist/object.d.mts",
+        "default": "./dist/object.mjs"
       },
       "module": {
-        "types": "./object.d.ts",
-        "default": "./object.js"
+        "types": "./dist/object.d.ts",
+        "default": "./dist/object.js"
       },
       "default": {
-        "types": "./object.d.ts",
-        "default": "./object.js"
+        "types": "./dist/object.d.ts",
+        "default": "./dist/object.js"
       }
     },
     "./string": {
       "import": {
-        "types": "./string.d.mts",
-        "default": "./string.mjs"
+        "types": "./dist/string.d.mts",
+        "default": "./dist/string.mjs"
       },
       "module": {
-        "types": "./string.d.ts",
-        "default": "./string.js"
+        "types": "./dist/string.d.ts",
+        "default": "./dist/string.js"
       },
       "default": {
-        "types": "./string.d.ts",
-        "default": "./string.js"
+        "types": "./dist/string.d.ts",
+        "default": "./dist/string.js"
       }
     },
     "./utils": {
       "import": {
-        "types": "./utils.d.mts",
-        "default": "./utils.mjs"
+        "types": "./dist/utils.d.mts",
+        "default": "./dist/utils.mjs"
       },
       "module": {
-        "types": "./utils.d.ts",
-        "default": "./utils.js"
+        "types": "./dist/utils.d.ts",
+        "default": "./dist/utils.js"
       },
       "default": {
-        "types": "./utils.d.ts",
-        "default": "./utils.js"
+        "types": "./dist/utils.d.ts",
+        "default": "./dist/utils.js"
       }
     }
   },
