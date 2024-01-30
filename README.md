@@ -1,6 +1,6 @@
 ## JS/TS Library
 
-Lightweight `2.5 kB (gzipped: 1.1 kB)` lib with helper functions for `JavaScript`/`TypeScript`.
+Lightweight `2.5 kB (gzipped: 1.1 kB)` lib of helper functions for JS/TS projects
 
 ### Event
 
