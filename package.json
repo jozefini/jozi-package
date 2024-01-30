@@ -36,72 +36,72 @@
     },
     "./events": {
       "import": {
-        "types": "./dist/events.d.mts",
-        "default": "./dist/events.mjs"
+        "types": "./dist/events/index.d.mts",
+        "default": "./dist/events/index.mjs"
       },
       "module": {
-        "types": "./dist/events.d.ts",
-        "default": "./dist/events.js"
+        "types": "./dist/events/index.d.ts",
+        "default": "./dist/events/index.js"
       },
       "default": {
-        "types": "./dist/events.d.ts",
-        "default": "./dist/events.js"
+        "types": "./dist/events/index.d.ts",
+        "default": "./dist/events/index.js"
       }
     },
     "./html": {
       "import": {
-        "types": "./dist/html.d.mts",
-        "default": "./dist/html.mjs"
+        "types": "./dist/html/index.d.mts",
+        "default": "./dist/html/index.mjs"
       },
       "module": {
-        "types": "./dist/html.d.ts",
-        "default": "./dist/html.js"
+        "types": "./dist/html/index.d.ts",
+        "default": "./dist/html/index.js"
       },
       "default": {
-        "types": "./dist/html.d.ts",
-        "default": "./dist/html.js"
+        "types": "./dist/html/index.d.ts",
+        "default": "./dist/html/index.js"
       }
     },
     "./object": {
       "import": {
-        "types": "./dist/object.d.mts",
-        "default": "./dist/object.mjs"
+        "types": "./dist/object/index.d.mts",
+        "default": "./dist/object/index.mjs"
       },
       "module": {
-        "types": "./dist/object.d.ts",
-        "default": "./dist/object.js"
+        "types": "./dist/object/index.d.ts",
+        "default": "./dist/object/index.js"
       },
       "default": {
-        "types": "./dist/object.d.ts",
-        "default": "./dist/object.js"
+        "types": "./dist/object/index.d.ts",
+        "default": "./dist/object/index.js"
       }
     },
     "./string": {
       "import": {
-        "types": "./dist/string.d.mts",
-        "default": "./dist/string.mjs"
+        "types": "./dist/string/index.d.mts",
+        "default": "./dist/string/index.mjs"
       },
       "module": {
-        "types": "./dist/string.d.ts",
-        "default": "./dist/string.js"
+        "types": "./dist/string/index.d.ts",
+        "default": "./dist/string/index.js"
       },
       "default": {
-        "types": "./dist/string.d.ts",
-        "default": "./dist/string.js"
+        "types": "./dist/string/index.d.ts",
+        "default": "./dist/string/index.js"
       }
     },
     "./utils": {
       "import": {
-        "types": "./dist/utils.d.mts",
-        "default": "./dist/utils.mjs"
+        "types": "./dist/utils/index.d.mts",
+        "default": "./dist/utils/index.mjs"
       },
       "module": {
-        "types": "./dist/utils.d.ts",
-        "default": "./dist/utils.js"
+        "types": "./dist/utils/index.d.ts",
+        "default": "./dist/utils/index.js"
       },
       "default": {
-        "types": "./dist/utils.d.ts",
-        "default": "./dist/utils.js"
+        "types": "./dist/utils/index.d.ts",
+        "default": "./dist/utils/index.js"
       }
     }
   },
