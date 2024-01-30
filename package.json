@@ -33,71 +33,71 @@
     },
     "./events": {
       "import": {
-        "types": "./dist/events.d.mts",
+        "types": "./dist/index.d.mts",
         "default": "./dist/events.mjs"
       },
       "module": {
-        "types": "./dist/events.d.ts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/events.js"
       },
       "default": {
-        "types": "./dist/events.d.ts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/events.js"
       }
     },
     "./html": {
       "import": {
-        "types": "./dist/html.d.mts",
+        "types": "./dist/index.d.mts",
         "default": "./dist/html.mjs"
       },
       "module": {
-        "types": "./dist/html.d.ts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/html.js"
       },
       "default": {
-        "types": "./dist/html.d.ts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/html.js"
       }
     },
     "./object": {
       "import": {
-        "types": "./dist/object.d.mts",
+        "types": "./dist/index.d.mts",
         "default": "./dist/object.mjs"
       },
       "module": {
-        "types": "./dist/object.d.ts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/object.js"
       },
       "default": {
-        "types": "./dist/object.d.ts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/object.js"
       }
     },
     "./string": {
       "import": {
-        "types": "./dist/string.d.mts",
+        "types": "./dist/index.d.mts",
         "default": "./dist/string.mjs"
       },
       "module": {
-        "types": "./dist/string.d.ts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/string.js"
       },
       "default": {
-        "types": "./dist/string.d.ts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/string.js"
       }
     },
     "./utils": {
       "import": {
-        "types": "./dist/utils.d.mts",
+        "types": "./dist/index.d.mts",
         "default": "./dist/utils.mjs"
       },
       "module": {
-        "types": "./dist/utils.d.ts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/utils.js"
       },
       "default": {
-        "types": "./dist/utils.d.ts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/utils.js"
       }
     }
