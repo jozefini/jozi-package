@@ -1,14 +1,6 @@
 import { defineConfig } from 'tsup'
 
 export default defineConfig({
-  entryPoints: [
-    'src/index.ts',
-    'src/events/index.ts',
-    'src/object/index.ts',
-    'src/string/index.ts',
-    'src/utils/index.ts',
-    'src/html/index.ts',
-  ],
   entry: {
     index: 'src/index.ts',
     events: 'src/events/index.ts',
@@ -17,7 +9,6 @@ export default defineConfig({
     utils: 'src/utils/index.ts',
     html: 'src/html/index.ts',
   },
-
   format: ['cjs', 'esm'],
   dts: true,
   outDir: '.',
