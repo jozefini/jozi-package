@@ -18,89 +18,88 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "exports": {
-    "./package.json": "./package.json",
     ".": {
       "import": {
-        "types": "./esm/index.d.mts",
-        "default": "./esm/index.mjs"
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
       },
       "module": {
-        "types": "./esm/index.d.ts",
-        "default": "./esm/index.js"
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
       },
       "default": {
-        "types": "./index.d.ts",
-        "default": "./index.js"
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
       }
     },
     "./events": {
       "import": {
-        "types": "./esm/events.d.mts",
-        "default": "./esm/events.mjs"
+        "types": "./dist/events.d.mts",
+        "default": "./dist/events.mjs"
       },
       "module": {
-        "types": "./esm/events.d.ts",
-        "default": "./esm/events.js"
+        "types": "./dist/events.d.ts",
+        "default": "./dist/events.js"
       },
       "default": {
-        "types": "./events.d.ts",
-        "default": "./events.js"
+        "types": "./dist/events.d.ts",
+        "default": "./dist/events.js"
       }
     },
     "./html": {
       "import": {
-        "types": "./esm/html.d.mts",
-        "default": "./esm/html.mjs"
+        "types": "./dist/html.d.mts",
+        "default": "./dist/html.mjs"
       },
       "module": {
-        "types": "./esm/html.d.ts",
-        "default": "./esm/html.js"
+        "types": "./dist/html.d.ts",
+        "default": "./dist/html.js"
       },
       "default": {
-        "types": "./html.d.ts",
-        "default": "./html.js"
+        "types": "./dist/html.d.ts",
+        "default": "./dist/html.js"
       }
     },
     "./object": {
       "import": {
-        "types": "./esm/object.d.mts",
-        "default": "./esm/object.mjs"
+        "types": "./dist/object.d.mts",
+        "default": "./dist/object.mjs"
       },
       "module": {
-        "types": "./esm/object.d.ts",
-        "default": "./esm/object.js"
+        "types": "./dist/object.d.ts",
+        "default": "./dist/object.js"
       },
       "default": {
-        "types": "./object.d.ts",
-        "default": "./object.js"
+        "types": "./dist/object.d.ts",
+        "default": "./dist/object.js"
       }
     },
     "./string": {
       "import": {
-        "types": "./esm/string.d.mts",
-        "default": "./esm/string.mjs"
+        "types": "./dist/string.d.mts",
+        "default": "./dist/string.mjs"
       },
       "module": {
-        "types": "./esm/string.d.ts",
-        "default": "./esm/string.js"
+        "types": "./dist/string.d.ts",
+        "default": "./dist/string.js"
       },
       "default": {
-        "types": "./string.d.ts",
-        "default": "./string.js"
+        "types": "./dist/string.d.ts",
+        "default": "./dist/string.js"
       }
     },
     "./utils": {
       "import": {
-        "types": "./esm/utils.d.mts",
-        "default": "./esm/utils.mjs"
+        "types": "./dist/utils.d.mts",
+        "default": "./dist/utils.mjs"
       },
       "module": {
-        "types": "./esm/utils.d.ts",
-        "default": "./esm/utils.js"
+        "types": "./dist/utils.d.ts",
+        "default": "./dist/utils.js"
       },
       "default": {
-        "types": "./utils.d.ts",
-        "default": "./utils.js"
+        "types": "./dist/utils.d.ts",
+        "default": "./dist/utils.js"
       }
     }
   },
