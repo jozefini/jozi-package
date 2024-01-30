@@ -1,7 +1,7 @@
 {
   "name": "@jozefini/lib",
   "license": "MIT",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "JS Library",
   "publishConfig": {
     "access": "public"
@@ -17,9 +17,97 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": {
+        "types": "./esm/index.d.mts",
+        "default": "./esm/index.mjs"
+      },
+      "module": {
+        "types": "./esm/index.d.ts",
+        "default": "./esm/index.js"
+      },
+      "default": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      }
+    },
+    "./events": {
+      "import": {
+        "types": "./esm/events.d.mts",
+        "default": "./esm/events.mjs"
+      },
+      "module": {
+        "types": "./esm/events.d.ts",
+        "default": "./esm/events.js"
+      },
+      "default": {
+        "types": "./events.d.ts",
+        "default": "./events.js"
+      }
+    },
+    "./html": {
+      "import": {
+        "types": "./esm/html.d.mts",
+        "default": "./esm/html.mjs"
+      },
+      "module": {
+        "types": "./esm/html.d.ts",
+        "default": "./esm/html.js"
+      },
+      "default": {
+        "types": "./html.d.ts",
+        "default": "./html.js"
+      }
+    },
+    "./object": {
+      "import": {
+        "types": "./esm/object.d.mts",
+        "default": "./esm/object.mjs"
+      },
+      "module": {
+        "types": "./esm/object.d.ts",
+        "default": "./esm/object.js"
+      },
+      "default": {
+        "types": "./object.d.ts",
+        "default": "./object.js"
+      }
+    },
+    "./string": {
+      "import": {
+        "types": "./esm/string.d.mts",
+        "default": "./esm/string.mjs"
+      },
+      "module": {
+        "types": "./esm/string.d.ts",
+        "default": "./esm/string.js"
+      },
+      "default": {
+        "types": "./string.d.ts",
+        "default": "./string.js"
+      }
+    },
+    "./utils": {
+      "import": {
+        "types": "./esm/utils.d.mts",
+        "default": "./esm/utils.mjs"
+      },
+      "module": {
+        "types": "./esm/utils.d.ts",
+        "default": "./esm/utils.js"
+      },
+      "default": {
+        "types": "./utils.d.ts",
+        "default": "./utils.js"
+      }
+    }
+  },
   "scripts": {
     "build": "tsup",
-    "lint": "tsc"
+    "lint": "tsc",
+    "ci:publish": "pnpm publish -r"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",

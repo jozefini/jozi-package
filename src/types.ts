@@ -4,9 +4,9 @@ export type Path<T> = T extends object
   ? {
       [K in keyof T]: K extends string
         ? `${K & string}.${Path<T[K]>}` | `${K & string}`
-        : never;
+        : never
     }[keyof T]
-  : "";
+  : ''
 
 export type PathExists<
   T,
@@ -19,7 +19,7 @@ export type PathExists<
     : false
   : P extends keyof T
   ? true
-  : false;
+  : false
 
 export type PathValue<
   T,
@@ -33,17 +33,17 @@ export type PathValue<
     : D
   : P extends keyof T
   ? T[P]
-  : D;
+  : D
 
 // Formatting
 
 export type ExtractKeys<S extends string> =
   S extends `${string}{{${infer K}}}${infer Rest}`
     ? K | ExtractKeys<Rest>
-    : never;
+    : never
 
 export type ReplacerKeys<S extends string> = ExtractKeys<S> extends infer K
   ? K extends string
     ? Record<K, string | number> & Record<string, string | number>
     : never
-  : never;
+  : never
