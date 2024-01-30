@@ -107,7 +107,7 @@
   "scripts": {
     "build": "tsup",
     "lint": "tsc",
-    "release": "pnpm run build && changesets version && changesets publish && npm publish"
+    "release": "pnpm run build && pnpm publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
