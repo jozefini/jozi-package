@@ -1,4 +1,5 @@
 type StringOrNumber = string | number
+type TransformFn = (v: any) => any
 
 // Check if array has length
 export function hasLength(items: any, length = 1, exact = false): boolean {
@@ -9,25 +10,43 @@ export function hasLength(items: any, length = 1, exact = false): boolean {
 }
 
 // Check if array has value
-export function hasValue(items: any[], value: any): boolean {
-  return hasLength(items) && items.includes(value)
+export function hasValue(
+  items: any[],
+  value: any,
+  transformFn?: TransformFn
+): boolean {
+  return hasLength(items) && transformFn
+    ? items.map(transformFn).includes(value)
+    : items.includes(value)
 }
 
 // Check if array has values
-export function hasValues(items: any[], values: any[]): boolean {
+export function hasValues(
+  items: any[],
+  values: any[],
+  transformFn?: TransformFn
+): boolean {
+  const hasItems = hasLength(items)
+  const _items = hasItems && transformFn ? items.map(transformFn) : items
   return (
-    hasLength(items) &&
+    hasItems &&
     hasLength(values) &&
-    values.every((value) => items.includes(value))
+    values.every((value) => _items.includes(value))
   )
 }
 
 // Check if array has any value
-export function hasAnyValue(items: any[], values: any[]): boolean {
+export function hasAnyValue(
+  items: any[],
+  values: any[],
+  transformFn?: TransformFn
+): boolean {
+  const hasItems = hasLength(items)
+  const _items = hasItems && transformFn ? items.map(transformFn) : items
   return (
-    hasLength(items) &&
+    hasItems &&
     hasLength(values) &&
-    values.some((value) => items.includes(value))
+    values.some((value) => _items.includes(value))
   )
 }
 
