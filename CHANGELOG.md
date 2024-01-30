@@ -1,5 +1,11 @@
 # @jozefini/lib
 
+## 0.2.4
+
+### Patch Changes
+
+- ed7e707: fix build
+
 ## 0.2.2
 
 ### Patch Changes
