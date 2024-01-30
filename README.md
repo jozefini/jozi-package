@@ -32,6 +32,8 @@ once(el, 'click', handler)
 
 ## Object Helpers
 
+Set of helper functions for safely getting and setting values in an object
+
 ```typescript
 import { safeGet, safeSet } from '@jozefini/lib'
 
