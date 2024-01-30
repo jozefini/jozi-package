@@ -1,13 +1,13 @@
-## Set of helpers for `JavaScript`/`TypeScript`
+## JS/TS Library
 
-This library provides several helper functions for `JavaScript`/`TypeScript`.
+Lightweight `2.5 kB (gzipped: 1.1 kB)` lib with helper functions for `JavaScript`/`TypeScript`.
 
 ### Event
 
 Set of helper functions to manage event listeners
 
 ```typescript
-import { on, off, delegate, undelegate, once } from '@jozefini/lib'
+import { on, off, delegate, undelegate, once } from '@jozefini/lib' // 598 B (gzipped: 324 B)
 
 // Prepare
 const parent = document.querySelector('.wrapper')
@@ -35,7 +35,7 @@ once(el, 'click', handler)
 Set of helper functions for safely getting and setting values in an object
 
 ```typescript
-import { safeGet, safeSet } from '@jozefini/lib'
+import { safeGet, safeSet } from '@jozefini/lib' // 532 B (gzipped: 312 B)
 
 // Prepare
 const obj = { a: { b: { c: 1 } } } as const
@@ -52,7 +52,7 @@ const v2 = safeSet(obj, 'a.b.c', 2) // true | false
 Helper function to manage string replacements
 
 ```typescript
-import { strReplacer } from '@jozefini/lib'
+import { strReplacer } from '@jozefini/lib' // 437 B (gzipped: 298 B)
 
 // Prepare
 const str = 'Hello {{name}}!'
@@ -66,7 +66,7 @@ const v1 = strReplacer(str, { name: 'World' }) // TypeSafe for all {{keys}} and 
 Helper function to sanitize HTML strings
 
 ```typescript
-import { kses } from '@jozefini/lib'
+import { kses } from '@jozefini/lib' // 965 B (gzipped: 536 B)
 
 // Prepare
 const htmlStr =
@@ -90,7 +90,7 @@ const v1 = kses(htmlStr, allowedTags) // '<p class"flex">Hello <strong>World</st
 Set of helper functions to manage CSS classes, particularly useful when working with Tailwind CSS
 
 ```typescript
-import { cn, firstTruthy } from '@jozefini/lib'
+import { cn, firstTruthy } from '@jozefini/lib' // 342 B (gzipped: 241 B)
 
 // Prepare
 const base = 'text-sm'
@@ -122,7 +122,7 @@ import {
   hasKey,
   hasKeys,
   hasAnyKey,
-} from '@jozefini/lib'
+} from '@jozefini/lib' // 795 B (gzipped: 379 B)
 
 // Prepare
 const arr = [1, 2, 3]
