@@ -112,13 +112,12 @@
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "tsup": "^8.0.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "prettier": "^2.8.8"
   },
   "bugs": {
     "url": "https://github.com/jozefini/jozi/issues"
   },
   "homepage": "https://github.com/jozefini/jozi#readme",
-  "dependencies": {
-    "prettier": "^2.8.8"
-  }
+  "dependencies": {}
 }
