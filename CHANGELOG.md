@@ -1,5 +1,11 @@
 # @jozefini/lib
 
+## 0.2.5
+
+### Patch Changes
+
+- b880f7e: Move prettier as dev dependency
+
 ## 0.2.4
 
 ### Patch Changes
