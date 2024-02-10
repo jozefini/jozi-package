@@ -1,7 +1,7 @@
 {
   "name": "@jozefini/lib",
   "license": "MIT",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "JS Library",
   "publishConfig": {
     "access": "public"
@@ -18,88 +18,28 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.mjs"
-      },
-      "module": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      },
-      "default": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      }
+      "import": "./dist/index.mjs",
+      "module": "./dist/index.js"
     },
     "./events": {
-      "import": {
-        "types": "./dist/events/index.d.ts",
-        "default": "./dist/events/index.mjs"
-      },
-      "module": {
-        "types": "./dist/events/index.d.ts",
-        "default": "./dist/events/index.js"
-      },
-      "default": {
-        "types": "./dist/events/index.d.ts",
-        "default": "./dist/events/index.js"
-      }
+      "import": "./dist/events/index.mjs",
+      "module": "./dist/events/index.js"
     },
     "./html": {
-      "import": {
-        "types": "./dist/html/index.d.ts",
-        "default": "./dist/html/index.mjs"
-      },
-      "module": {
-        "types": "./dist/html/index.d.ts",
-        "default": "./dist/html/index.js"
-      },
-      "default": {
-        "types": "./dist/html/index.d.ts",
-        "default": "./dist/html/index.js"
-      }
+      "import": "./dist/html/index.mjs",
+      "module": "./dist/html/index.js"
     },
     "./object": {
-      "import": {
-        "types": "./dist/object/index.d.ts",
-        "default": "./dist/object/index.mjs"
-      },
-      "module": {
-        "types": "./dist/object/index.d.ts",
-        "default": "./dist/object/index.js"
-      },
-      "default": {
-        "types": "./dist/object/index.d.ts",
-        "default": "./dist/object/index.js"
-      }
+      "import": "./dist/object/index.mjs",
+      "module": "./dist/object/index.js"
     },
     "./string": {
-      "import": {
-        "types": "./dist/string/index.d.ts",
-        "default": "./dist/string/index.mjs"
-      },
-      "module": {
-        "types": "./dist/string/index.d.ts",
-        "default": "./dist/string/index.js"
-      },
-      "default": {
-        "types": "./dist/string/index.d.ts",
-        "default": "./dist/string/index.js"
-      }
+      "import": "./dist/string/index.mjs",
+      "module": "./dist/string/index.js"
     },
     "./utils": {
-      "import": {
-        "types": "./dist/utils/index.d.ts",
-        "default": "./dist/utils/index.mjs"
-      },
-      "module": {
-        "types": "./dist/utils/index.d.ts",
-        "default": "./dist/utils/index.js"
-      },
-      "default": {
-        "types": "./dist/utils/index.d.ts",
-        "default": "./dist/utils/index.js"
-      }
+      "import": "./dist/utils/index.mjs",
+      "module": "./dist/utils/index.js"
     }
   },
   "sideEffects": false,
