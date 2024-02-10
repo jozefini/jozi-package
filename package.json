@@ -1,7 +1,7 @@
 {
   "name": "@jozefini/lib",
   "license": "MIT",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "JS Library",
   "publishConfig": {
     "access": "public"
@@ -19,27 +19,33 @@
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
-      "module": "./dist/index.js"
+      "module": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     },
     "./events": {
       "import": "./dist/events/index.mjs",
-      "module": "./dist/events/index.js"
+      "module": "./dist/events/index.js",
+      "types": "./dist/events/index.d.ts"
     },
     "./html": {
       "import": "./dist/html/index.mjs",
-      "module": "./dist/html/index.js"
+      "module": "./dist/html/index.js",
+      "types": "./dist/html/index.d.ts"
     },
     "./object": {
       "import": "./dist/object/index.mjs",
-      "module": "./dist/object/index.js"
+      "module": "./dist/object/index.js",
+      "types": "./dist/object/index.d.ts"
     },
     "./string": {
       "import": "./dist/string/index.mjs",
-      "module": "./dist/string/index.js"
+      "module": "./dist/string/index.js",
+      "types": "./dist/string/index.d.ts"
     },
     "./utils": {
       "import": "./dist/utils/index.mjs",
-      "module": "./dist/utils/index.js"
+      "module": "./dist/utils/index.js",
+      "types": "./dist/utils/index.d.ts"
     }
   },
   "sideEffects": false,
