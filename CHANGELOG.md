@@ -1,5 +1,13 @@
 # @jozefini/lib
 
+## 0.2.6
+
+### Patch Changes
+
+- d2d6100: fix ts
+- 724f999: replace ts extension
+- b880f7e: Move prettier as dev dependency
+
 ## 0.2.4
 
 ### Patch Changes
