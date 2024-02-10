@@ -19,7 +19,7 @@
   "exports": {
     ".": {
       "import": {
-        "types": "./dist/index.d.mts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/index.mjs"
       },
       "module": {
@@ -33,7 +33,7 @@
     },
     "./events": {
       "import": {
-        "types": "./dist/events/index.d.mts",
+        "types": "./dist/events/index.d.ts",
         "default": "./dist/events/index.mjs"
       },
       "module": {
@@ -47,7 +47,7 @@
     },
     "./html": {
       "import": {
-        "types": "./dist/html/index.d.mts",
+        "types": "./dist/html/index.d.ts",
         "default": "./dist/html/index.mjs"
       },
       "module": {
@@ -61,7 +61,7 @@
     },
     "./object": {
       "import": {
-        "types": "./dist/object/index.d.mts",
+        "types": "./dist/object/index.d.ts",
         "default": "./dist/object/index.mjs"
       },
       "module": {
@@ -75,7 +75,7 @@
     },
     "./string": {
       "import": {
-        "types": "./dist/string/index.d.mts",
+        "types": "./dist/string/index.d.ts",
         "default": "./dist/string/index.mjs"
       },
       "module": {
@@ -89,7 +89,7 @@
     },
     "./utils": {
       "import": {
-        "types": "./dist/utils/index.d.mts",
+        "types": "./dist/utils/index.d.ts",
         "default": "./dist/utils/index.mjs"
       },
       "module": {
