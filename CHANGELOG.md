@@ -1,5 +1,11 @@
 # @jozefini/lib
 
+## 0.2.9
+
+### Patch Changes
+
+- 5a28dc3: nodenext
+
 ## 0.2.8
 
 ### Patch Changes
