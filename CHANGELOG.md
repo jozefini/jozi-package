@@ -1,5 +1,15 @@
 # @jozefini/lib
 
+## 0.2.8
+
+### Patch Changes
+
+- 470cd17: fix import
+- d2d6100: fix ts
+- 73e5b82: ts build
+- 724f999: replace ts extension
+- b880f7e: Move prettier as dev dependency
+
 ## 0.2.4
 
 ### Patch Changes
