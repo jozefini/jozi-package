@@ -1,5 +1,11 @@
 # @jozefini/lib
 
+## 0.2.11
+
+### Patch Changes
+
+- 17c5184: ts config
+
 ## 0.2.10
 
 ### Patch Changes
