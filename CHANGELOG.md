@@ -1,5 +1,11 @@
 # @jozefini/lib
 
+## 0.2.10
+
+### Patch Changes
+
+- 5375fd5: fix ts import
+
 ## 0.2.9
 
 ### Patch Changes
