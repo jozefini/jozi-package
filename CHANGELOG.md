@@ -1,5 +1,11 @@
 # @jozefini/lib
 
+## 0.2.12
+
+### Patch Changes
+
+- 6785000: new name
+
 ## 0.2.11
 
 ### Patch Changes

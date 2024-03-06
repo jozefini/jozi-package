@@ -1,7 +1,7 @@
 {
   "name": "jozi",
   "license": "MIT",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "description": "JS Library",
   "publishConfig": {
     "access": "public"
