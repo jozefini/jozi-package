@@ -12,7 +12,7 @@
   ],
   "author": "Jozefini",
   "repository": {
-    "url": "git+https://github.com/jozefini/jozi.git"
+    "url": "git+https://github.com/jozefini/jozi-package.git"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -62,7 +62,7 @@
     "typescript": "^5.3.3"
   },
   "bugs": {
-    "url": "https://github.com/jozefini/jozi/issues"
+    "url": "https://github.com/jozefini/jozi-package/issues"
   },
-  "homepage": "https://github.com/jozefini/jozi#readme"
+  "homepage": "https://github.com/jozefini/jozi-package#readme"
 }
